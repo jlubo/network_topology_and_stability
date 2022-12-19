@@ -1,0 +1,7 @@
+#!/bin/sh
+
+g++ -std=c++0x Test_Main.cpp \
+               Matrix.cpp \
+               Plots.cpp \
+               Tools.cpp \
+               -static -lgsl -lgslcblas -o test.out

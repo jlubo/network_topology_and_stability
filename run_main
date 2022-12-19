@@ -1,0 +1,11 @@
+#!/bin/sh
+
+./sim.out -gardnerashby -trials=100000 -undirected=0 -goal="Reproduction of the results of Gardner and Ashby, 1970"
+
+./sim.out -gardnerashby -trials=100000 -goal="Simulations as in Gardner and Ashby, 1970, with undirected graphs"
+
+./sim.out -smallworld -N=100 -k=4 -p_rew=0.05 -trials=1000 -minS_self=-2.8 -maxS_self=-1.9 -goal="Region of stabilization for small-world networks"
+
+./sim.out -scalefree -N=100 -m=2 -m0=0 -trials=1000 -minS_self=-3.8 -maxS_self=-2.9 -goal="Region of stabilization for scale-free networks"
+
+./sim.out -leskovec -N=10 -p=2 -n0=82 -trials=1000 -minS_self=-3.2 -maxS_self=-2.3 -goal="Region of stabilization for Kronecker-Leskovec networks"

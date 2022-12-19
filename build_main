@@ -1,0 +1,7 @@
+#!/bin/sh
+
+g++ -std=c++0x Main_Stability.cpp \
+               Matrix.cpp \
+               Plots.cpp \
+               Tools.cpp \
+               -static -lgsl -lgslcblas -o sim.out
