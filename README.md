@@ -10,13 +10,13 @@ The code has been developed and used for the following publication:
 
    Luboeinski J, Claro L, Pomi A, Mizraji E. Stabilization through self-coupling in networks of small-world and scale-free topology. Sci. Rep. (2023). https://doi.org/10.1038/s41598-023-27809-8
 
-If you use parts of the software package or the model for your research, please consider cite the code or the paper appropriately (see [here](BIBTEX.md) for BibTeX references). 
+If you use parts of the software package or the model for your research, please cite appropriately (see [here](BIBTEX.md) for BibTeX references). 
 Please feel free to contact us for any questions.
 
 
 ## Build and run
 
-This program uses GNU Scientific Library (GSL) v2.5 (it is therefore provided under the GNU General Public License v3). Please make sure that you have installed a suitable version of GSL before building the code.
+This program uses [GNU Scientific Library (GSL)](https://www.gnu.org/software/gsl/) v2.5 (it is therefore provided under the GNU General Public License v3). Please make sure that you have installed a suitable version of GSL before building the code. If you would like to have plots created automatically, also make sure that you have installed [gnuplot](http://www.gnuplot.info/).
 
 The code comes with the following shell scripts for building:
 

@@ -14,6 +14,6 @@
 	   title={Random generation of networks of different topology and analysis of their asymptotic stability},
 	   author={Luboeinski, Jannik},
 	   year={2023},
-	   doi={},
-	   url={https://github.com/jlubo/network_topology_and_stability}
+	   doi={10.5281/zenodo.7542025},
+	   url={https://doi.org/10.5281/zenodo.7542025}
 	}
